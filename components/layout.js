@@ -3,8 +3,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Joey Desjardins';
-export const siteTitle = 'Next.js Sample Website';
+const name = 'Joey Desjardin';
+export const siteTitle = `Joey Desjardin's Blog & Portfolio`;
 
 export default function Layout({ children, home }) {
 	return (

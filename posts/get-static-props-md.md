@@ -1,5 +1,5 @@
 ---
-title: Setting up Next.js project
+title: Implementing getStaticProps
 date: "2020-12-12T21:53:03.284Z"
 description: "Notes from the the Next.js Blog Tutorial. Sets up posts routes with static data."
 ---
