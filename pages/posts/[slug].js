@@ -3,6 +3,8 @@ import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
+import ReactMarkdown from 'react-markdown';
+import Codeblock from '../../components/codeblock';
 
 //sets props in Post Component - gets params from fileName
 export async function getStaticProps({ params }) {
@@ -34,7 +36,8 @@ export default function Post({ postData }) {
 				<div className={utilStyles.lightText}>
 					<Date dateString={postData.date} />
 				</div>
-				<div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+				<ReactMarkdown source={postData.contentHtml} renderers={{ code: Codeblock }} />
+				{/* <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} /> */}
 			</article>
 		</Layout>
 	);
