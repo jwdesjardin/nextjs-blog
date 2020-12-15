@@ -17,6 +17,7 @@
     "react-markdown": "^5.0.3",
     "remark": "^13.0.0",
     "remark-code-blocks": "^2.0.1",
+    "remark-gfm": "^1.0.0",
     "remark-html": "^13.0.1"
   }
 }

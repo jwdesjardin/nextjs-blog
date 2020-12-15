@@ -5,6 +5,7 @@ import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
 import ReactMarkdown from 'react-markdown';
 import Codeblock from '../../components/codeblock';
+import gfm from 'remark-gfm';
 
 //sets props in Post Component - gets params from fileName
 export async function getStaticProps({ params }) {
@@ -36,7 +37,7 @@ export default function Post({ postData }) {
 				<div className={utilStyles.lightText}>
 					<Date dateString={postData.date} />
 				</div>
-				<ReactMarkdown source={postData.contentHtml} renderers={{ code: Codeblock }} />
+				<ReactMarkdown plugins={[ gfm ]} source={postData.contentHtml} renderers={{ code: Codeblock }} />
 				{/* <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} /> */}
 			</article>
 		</Layout>

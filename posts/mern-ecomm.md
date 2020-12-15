@@ -1,7 +1,7 @@
 ---
-title: Mern Ecommerce Project Notes
+title: MERN Ecommerce Project Setup
 date: "2020-12-13"
-description: "Notes on the fullstack ecommerce project."
+description: "Notes on the setup of my fullstack ecommerce project."
 ---
 
 ## Notes from the Mern ecomm course
@@ -51,27 +51,4 @@ Rating.propTypes = {
 	color: PropTypes.string
 };
 ```
-
-Differense detwwen common js modules and ES6 modules
-
-common js modules (used in node)
-
-```js
-const express = require('express')
-```
-
-```js
-module.exports = products
-```
-
-ES modules 
-
-```js
-import axios from 'axios'
-```
-
-```js
-export default products
-```
-
 
