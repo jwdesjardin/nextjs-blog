@@ -1,7 +1,7 @@
 ---
-title: Using Dynamic URLs
-date: "2020-12-12T21:53:03.284Z"
-description: "shows how to use dynamic urls"
+title: Servers 101
+date: "2020-12-14"
+description: "Notes from setting up the backend of my fullstack ecommerce project."
 ---
 
 ## Using Dynamic URLS
