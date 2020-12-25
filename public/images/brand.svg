@@ -1,0 +1,21 @@
+<svg width="440" height="295" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_4_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="#2c262c" id="canvas_background" height="297" width="442" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#000" ry="147.99999" rx="157.5" id="svg_1" cy="147.99998" cx="282.50001" stroke-width="0" fill="#40afe6"/>
+  <ellipse filter="url(#svg_4_blur)" stroke="#000" ry="147.99999" rx="157.5" id="svg_4" cy="147.00001" cx="157.50001" stroke-width="0" fill="#8451a2"/>
+  <text stroke="#000" transform="matrix(5.896063019670961,0,0,6.754628810728416,-755.9973749795497,-1518.5638292978247) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="255.02171" x="132.17081" stroke-opacity="null" stroke-width="0" fill="#161316">&lt;dev&gt;</text>
+ </g>
+</svg>

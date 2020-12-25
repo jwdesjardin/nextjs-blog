@@ -50,3 +50,13 @@
 .lightText {
 	color: #999;
 }
+
+.textbox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	max-width: 800px;
+	margin: auto;
+}

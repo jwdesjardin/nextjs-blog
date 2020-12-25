@@ -11,7 +11,10 @@ export default function Layout({ children, home }) {
 		<div className={styles.container}>
 			<Head>
 				<link rel='icon' href='/favicon.ico' />
-				<meta name='description' content='Learn how to build a personal website using Next.js' />
+				<meta
+					name='description'
+					content='Learn how to build a personal website using Next.js'
+				/>
 				<meta
 					property='og:image'
 					content={`https://og-image.now.sh/${encodeURI(
@@ -23,28 +26,28 @@ export default function Layout({ children, home }) {
 			</Head>
 			<header className={styles.header}>
 				{home ? (
-					<div>
+					<div className={styles.headerDiv}>
 						<img
-							src='/images/profile.jpg'
-							className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+							src='/images/brand.svg'
+							className={`${styles.headerHomeImage}`}
 							alt={name}
 						/>
-						<h1 className={utilStyles.heading2Xl}>{name}</h1>
+						<h1 className={utilStyles.heading2Xl}>JdCoding</h1>
 					</div>
 				) : (
 					<div>
 						<Link href='/'>
 							<a>
 								<img
-									src='/images/profile.jpg'
-									className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+									src='/images/brand.svg'
+									className={`${styles.headerImage}`}
 									alt={name}
 								/>
 							</a>
 						</Link>
 						<h2 className={utilStyles.headingLg}>
 							<Link href='/'>
-								<a className={utilStyles.colorInherit}>{name}</a>
+								<a className={utilStyles.colorInherit}>JdCoding</a>
 							</Link>
 						</h2>
 					</div>
@@ -58,6 +61,11 @@ export default function Layout({ children, home }) {
 					</Link>
 				</div>
 			)}
+			<footer>
+				<div className={`${utilStyles.lightText} ${styles.footer}`}>
+					<p>Developed by Joey Desjardin</p> <p>2020</p>
+				</div>
+			</footer>
 		</div>
 	);
 }
