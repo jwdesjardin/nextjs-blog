@@ -39,6 +39,8 @@ export default sanityClient({
 1. querying the sanity studio within component
 
 ```js
+import sanityClient from '../client.js
+
 useEffect(() => {
   sanityClient.fetch(`*[_type == "post"]{
     title,
@@ -53,4 +55,14 @@ useEffect(() => {
   .then((data) => setPost(data))
   .catch(console.error);
 }, []);
+```
+
+1. querying multiple lists 
+
+```js
+*[ _type == "director" && birthYear >= 1970 ]{
+  name,
+  birthYear,
+  "movies": *[ _type == "movie" && director._ref == ^._id ]
+}
 ```
