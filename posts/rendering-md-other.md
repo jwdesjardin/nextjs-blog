@@ -2,6 +2,7 @@
 title: Render Markdown, Format Date, Others..
 date: "2020-12-12T21:53:03.284Z"
 description: "Shows how to render markdown and format date among other things."
+tags: ["Next.js"]
 ---
 
 ## Render Markdown

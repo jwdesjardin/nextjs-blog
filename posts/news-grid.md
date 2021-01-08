@@ -2,6 +2,7 @@
 title: CSS Grid project notes
 date: "2020-12-13"
 description: "Notes from the NewsGrid project in the HTML, CSS and Sass course."
+tags: ["CSS","HTML"]
 ---
 
 ## THis is my notes from brad traversy's News grid project that demonstrates the use of CSS grid

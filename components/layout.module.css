@@ -41,3 +41,28 @@
 	flex-direction: column;
 	margin: 2rem 0 0 0;
 }
+
+
+.slugHeaderDiv {
+	display: flex;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.slugHeaderImage {
+	width: 3.5rem;
+	height: 2.75rem;
+	margin-right: .5rem;
+	float: left;
+}
+
+
+/* media queries */
+@media (max-width: 450px){
+	.headerDiv {
+		flex-direction: column;
+	}
+	.headerDiv h1 {
+		font-size: 4rem;
+	}
+}

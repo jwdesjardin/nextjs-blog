@@ -2,6 +2,7 @@
 title: Building a shopping cart
 date: "2020-12-17"
 description: "Notes from setting up the shopping cart of my fullstack ecommerce project."
+tags: ["React","Redux"]
 ---
 
 ## Shopping cart 

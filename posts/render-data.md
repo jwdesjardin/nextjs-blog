@@ -2,6 +2,7 @@
 title: Options for rendering Html
 date: "2020-12-12T21:53:03.284Z"
 description: "Takes us through pros and cons for Static Site Generating, Server Side Rendering, and Client Side Rendering"
+tags: ["Next.js"]
 ---
 
 

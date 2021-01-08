@@ -1,0 +1,32 @@
+.tag{
+  margin: .3rem;
+  outline-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .7rem;
+  border-radius: 200px;
+  border: none;
+}
+
+.tag >p {
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: .05rem;
+}
+
+
+.tag:focus{
+  outline-style: none;
+}
+
+.isSelected {
+  border: solid 2px red;
+}
+
+
+.tagCount{
+  background-color: cornflowerblue;
+  padding: .4rem;
+  border-radius: 100px;
+}

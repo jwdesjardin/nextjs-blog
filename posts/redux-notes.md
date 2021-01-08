@@ -2,6 +2,7 @@
 title: Redux setup
 date: "2020-12-15"
 description: "Notes from setting up redux in my fullstack ecommerce project."
+tags: ["React","Redux"]
 ---
 
 ## REDUX

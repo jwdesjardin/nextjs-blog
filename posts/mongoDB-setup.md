@@ -2,6 +2,7 @@
 title: MongoDB project set up
 date: "2020-12-14"
 description: "Connecting to db, modeling data, seeding scripts"
+tags: ["Node.js","Express", "Mongo DB"]
 ---
 
 ## Set up Mongo DB

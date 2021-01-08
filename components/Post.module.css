@@ -1,0 +1,21 @@
+.card{
+  background-color:#444;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.date{
+  display: block;
+}
+
+.tag{
+  background-color: crimson;
+  margin: 0 1rem .5rem 0;
+  padding: .4rem;
+  border-radius: 100px;
+}
+
+.tagDiv {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -2,6 +2,7 @@
 title: MERN Ecommerce Project Setup
 date: "2020-12-13"
 description: "Notes on the setup of my fullstack ecommerce project."
+tags: ["React","React-Bootstrap"]
 ---
 
 ## Notes from the Mern ecomm course

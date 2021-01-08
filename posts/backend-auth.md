@@ -2,6 +2,7 @@
 title: Setting up Backend Authentication
 date: "2020-12-17"
 description: "Notes from setting up the backend of my fullstack ecommerce project."
+tags: ["Node.js","Express", "Mongo DB"]
 ---
 
 ## Backend authentication

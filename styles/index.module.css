@@ -1,0 +1,42 @@
+.searchInput{
+  padding: .5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 3px ;
+}
+
+.button {
+  padding: .5rem .8rem;
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  transition: transform 50ms linear;
+  font-weight: 600;
+ 
+}
+
+.button:hover {
+  transform: scale(.98);
+  background-color: #e0a236;
+}
+
+.primary {
+  color:#222;
+  background-color: #40afe6;
+}
+
+.secondary {
+  color: #40afe6;
+  background-color:#666;
+}
+
+
+.leadText {
+  line-height: 1.8;
+  
+}
+
+.postsSection {
+  min-height: 70rem;
+}

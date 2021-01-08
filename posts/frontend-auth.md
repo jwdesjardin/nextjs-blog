@@ -2,7 +2,7 @@
 title: Setting up Backend Authentication
 date: "2020-12-17"
 description: "Notes from setting up the backend of my fullstack ecommerce project."
-tags: ['funny', 'cool']
+tags: ["React", "Redux", "Axios" ]
 ---
 
 # Front end authorization

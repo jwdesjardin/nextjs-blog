@@ -2,6 +2,7 @@
 title: Heroku CLI
 date: "2021-01-02"
 description: "Notes from deploying a project on heroku."
+tags: ["Deployment"]
 ---
 
 1. login to heroku

@@ -2,6 +2,7 @@
 title: UI Design for coders Notes
 date: "2020-12-13"
 description: "Notes from course on Traversy Media on UI design for coders."
+tags: ["UI/UX"]
 ---
 
 ## Color

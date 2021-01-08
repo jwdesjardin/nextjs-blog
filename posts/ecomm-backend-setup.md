@@ -2,6 +2,7 @@
 title: Servers 101
 date: "2020-12-14"
 description: "Notes from setting up the backend of my fullstack ecommerce project."
+tags: ["Node.js","Express"]
 ---
 
 ## Notes from the backend portion

@@ -35,12 +35,12 @@ export default function Layout({ children, home }) {
 						<h1 className={utilStyles.heading2Xl}>JdCoding</h1>
 					</div>
 				) : (
-					<div>
+					<div className={styles.slugHeaderDiv}>
 						<Link href='/'>
 							<a>
 								<img
 									src='/images/brand.svg'
-									className={`${styles.headerImage}`}
+									className={`${styles.slugHeaderImage}`}
 									alt={name}
 								/>
 							</a>

@@ -2,6 +2,7 @@
 title: My First Original Post
 date: "2020-12-11"
 description: "An attempt to make my first blog post using a Gatsby Statis Site Generator"
+tags: []
 ---
 
 I am going to make this blog post about things i want to rememeber about using markdown. 
