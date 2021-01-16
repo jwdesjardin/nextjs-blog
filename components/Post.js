@@ -14,7 +14,7 @@ const Post = ({ slug, title, date, description, tags }) => {
 			<small className={utilStyles.lightText + ' ' + styles.date}>
 				<Date dateString={date} />
 			</small>
-			<p>{description && description}</p>
+			<p className={styles.description}>{description && description}</p>
 			<div className={styles.tagDiv}>
 				{tags &&
 					tags.map((tag, index) => (
