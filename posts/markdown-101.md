@@ -1,5 +1,5 @@
 ---
-title: My First Original Post
+title: Markdown 101
 date: "2020-12-11"
 description: "An attempt to make my first blog post using a Gatsby Statis Site Generator"
 tags: []

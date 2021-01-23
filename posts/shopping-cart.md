@@ -1,7 +1,7 @@
 ---
-title: Building a shopping cart
+title: Redux Shopping Cart
 date: "2020-12-17"
-description: "Notes from setting up the shopping cart of my fullstack ecommerce project."
+description: "Notes from building a redux shopping cart."
 tags: ["React","Redux"]
 ---
 

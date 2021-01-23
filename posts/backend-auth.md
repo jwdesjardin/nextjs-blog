@@ -1,5 +1,5 @@
 ---
-title: Setting up Backend Authentication
+title: Backend Authentication
 date: "2020-12-17"
 description: "Notes from setting up the backend of my fullstack ecommerce project."
 tags: ["Node.js","Express", "Mongo DB"]
@@ -14,7 +14,7 @@ we are going to create three routeHandlers
 
 ### POST */api/users/* register a new user
 
-1. check if that email is in the db
+1. check if user already exists and throw error if true
 ```js
 const userExists = await User.findOne({ email });
 	if (userExists) {
@@ -24,7 +24,7 @@ const userExists = await User.findOne({ email });
   }
 ```
 
-2. create the user adnd respond with the data 
+2. create the user , generate a token and respond with data 
 ```js
 const user = await User.create({ name, email, password });
 
@@ -46,6 +46,7 @@ const user = await User.findOne({ email });
 ```
 
 2. if the password matches respond with the user plus a token
+
 ```js
 if (user && (await user.matchPassword(password))) {
   res.json({
@@ -61,22 +62,26 @@ if (user && (await user.matchPassword(password))) {
 
  ### auth middleware
   1. check the request headers for authorization 
+
   ```js
   if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
   ```
 
   2. decode the passed token with the .env secret
+
   ```js
   token = req.headers.authorization.split(' ')[1];
 	const decoded = jwt.verify(token, process.env.JWT_SECRET);
   ```
 
   3. set the user on the request with the user data without the password
+
   ```js
   req.user = await User.findById(decoded.id).select('-password');
   ```
   
   4. next out and handle errors
+
   ```js
   		next();
 		} catch (error) {

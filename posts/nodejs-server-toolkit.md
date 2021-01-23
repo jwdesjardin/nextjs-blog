@@ -1,8 +1,8 @@
 ---
-title: Servers 101
+title: Node.js Server Toolkit
 date: "2020-12-14"
 description: "Notes from setting up the backend of my fullstack ecommerce project."
-tags: ["Node.js","Express"]
+tags: ["Node.js","Express", "Colors.js", "Dotenv", "ES modules"]
 ---
 
 ## Notes from the backend portion

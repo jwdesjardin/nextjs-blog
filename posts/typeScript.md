@@ -1,7 +1,7 @@
 ---
 title: Typescript Docs Notes
 date: "2020-12-14"
-description: "Notes from the Typescript Docs."
+description: "Notes from the Typescript Docs and tutorial."
 tags: ["Typescript"]
 ---
 

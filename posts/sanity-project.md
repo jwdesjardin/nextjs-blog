@@ -1,5 +1,5 @@
 ---
-title: Setting up Sanity Studio and Querying data
+title: Setup Sanity Studio and Query data
 date: "2020-12-30"
 description: "Notes from setting up a sanity project."
 tags: ["CMS"]

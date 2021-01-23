@@ -1,9 +1,11 @@
 ---
 title: Heroku CLI
 date: "2021-01-02"
-description: "Notes from deploying a project on heroku."
+description: "Instructions on setting up and deploying a heroku app"
 tags: ["Deployment"]
 ---
+
+## setup heroku project with node server and react client
 
 1. login to heroku
 
@@ -42,3 +44,8 @@ git push heroku master
 ```
 
 7. add env variables to heroku
+
+
+## add heroku postgres db
+
+` heroku addons:create heroku-postgresql:hobby-dev `
